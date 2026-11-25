@@ -576,7 +576,7 @@ class AgentCustom:
             tools=self.tools,
             system_prompt=self.system_prompt,
             checkpointer=checkpointer,
-            # store=store,
+            store=store,
             skills=[f"{settings.BASE_DIR}/skills"],
             name="gemini-agent",
             debug=True,
